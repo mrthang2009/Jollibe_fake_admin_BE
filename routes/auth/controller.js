@@ -22,6 +22,7 @@ module.exports = {
         lastName,
         typeRole,
         avatar: avatar?.avatarUrl || null,
+        
       });
       const refreshToken = generateRefreshToken(_id);
 
